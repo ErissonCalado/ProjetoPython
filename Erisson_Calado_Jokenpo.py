@@ -32,7 +32,7 @@ Digite sua escolha: '''))
             print(nome1, "venceu a rodada")
             pontos1 = pontos1+1
         else:
-            print("Operacao invalida")
+            print("Operação inválida")
 
     if jogador1 == 1:
         if jogador2 == 1:
@@ -44,7 +44,7 @@ Digite sua escolha: '''))
             print(nome2, "venceu a rodada")
             pontos2 = pontos2+1
         else:
-            print("Operacao invalida")
+            print("Operação inválida")
 
     if jogador1 == 2:
         if jogador2 == 2:
@@ -56,7 +56,7 @@ Digite sua escolha: '''))
             print(nome1, "venceu a rodada")
             pontos1 = pontos1+1
         else:
-            print("Operacao invalida")
+            print("Operação inválida")
 
 if pontos2 == 2:
     print(nome2, "venceu por ", pontos2, "a", pontos1, "de", nome1)
